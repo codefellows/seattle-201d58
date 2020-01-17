@@ -1,0 +1,43 @@
+body {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+}
+
+#logo {
+    float: left;
+}
+#nav2 {
+    
+}
+
+#nav3 {
+float: right;
+}
+#logocursive {
+    font-family: 'Yellowtail', cursive;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+#logofoot {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-small;
+    margin-top: 0;
+}
+
+#date {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: gray;
+}
+
+#instructions {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+}
