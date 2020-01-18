@@ -7,12 +7,12 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
 }
 nav {
     width: 30em;
     margin-right: 60em;
-    padding-right: 20;]
+    padding-right: 20;
     border: 0;
 }
 header {
@@ -27,21 +27,21 @@ header {
 }
 
 #nav2 {
-position: absolute;
-display: block;
-margin-left: 50%;
-padding: 0px;
-margin-left: 44em;
-margin-top: 0;
+    position: absolute;
+    display: block;
+    margin-left: 50%;
+    padding: 0px;
+    margin-left: 44em;
+    top: 80px;
 }
 
 #nav3 {
-position: absolute;
-display: block;
-margin-left: 50%;
-padding: 0px;
-margin-left: 55em;
-margin-top: 0;
+    position: absolute;
+    display: block;
+    margin-left: 50%;
+    padding: 0px;
+    margin-left: 56em;
+    top: 80px;
 }
 #logocursive {
     font-family: 'Yellowtail', cursive;
@@ -65,4 +65,11 @@ margin-top: 0;
 #instructions {
     font-family: 'Patrick Hand', cursive;
     font-size: 1.5em;
+}
+#instructions {
+    position: relative;
+}
+#steps2 {
+    position: absolute;
+    display: inline-block;
 }
