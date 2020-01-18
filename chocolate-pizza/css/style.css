@@ -9,27 +9,52 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 5em;
 }
+nav {
+    width: 30em;
+    margin-right: 60em;
+    padding-right: 20;]
+    border: 0;
+}
+header {
+    width: 20em;
+}
 
 #logo {
     float: left;
+    height: 4em;
 }
+#nav1 {
+}
+
 #nav2 {
-    
+position: absolute;
+display: block;
+margin-left: 50%;
+padding: 0px;
+margin-left: 44em;
+margin-top: 0;
 }
 
 #nav3 {
-float: right;
+position: absolute;
+display: block;
+margin-left: 50%;
+padding: 0px;
+margin-left: 55em;
+margin-top: 0;
 }
 #logocursive {
     font-family: 'Yellowtail', cursive;
     font-size: 4em;
     margin-bottom: 0;
+    line-height: .7;
 }
 
 #logofoot {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: x-small;
+    font-size: 1.3em;
     margin-top: 0;
+    margin-left: 7%;
 }
 
 #date {
@@ -39,5 +64,5 @@ float: right;
 
 #instructions {
     font-family: 'Patrick Hand', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
 }
