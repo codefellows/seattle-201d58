@@ -1,0 +1,36 @@
+#box1, #box2, #box3 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: black;
+  transition: 500ms;
+}
+
+#box1:hover {
+  border-radius: 30px;
+}
+
+#box2:hover {
+  /* transform: translateX(30px); */
+  /* transform: skew(0, 360deg); */
+  transform: rotate(45deg);
+}
+
+#box3 {
+  animation-name: shake;
+  animation-duration: 500ms;
+  animation-iteration-count: 3;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+    border-radius: 50px;
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

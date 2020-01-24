@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+}
+
+#imgLeft{
+    height: 250px;
+    width: 250px;
+}
+
+#imgCenter{
+    height: 250px;
+    width: 250px;
+}
+
+#imgRight{
+    height: 250px;
+    width: 250px; 
+}
+
